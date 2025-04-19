@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: white !important;
+}
+.h, .c{
+ color: red !important;
+}
+body {
+    background-color: #44444411;
+  
+}
+input{
+ color: black !important;
+}
+
+.search-bar {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+    
+}
+
+label {
+     margin-left: 10px;
+    display: block;
+    color: rgba(99,99,99,0.7);
+}
+
+input{
+   width: 100%;
+    border: none;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 1px #33333311; 
+
+}
+input[type="submit"] {
+margin: 10px 0;
+    background: #551155bb;
+}
+.gender-div{
+    box-shadow: 2px 2px 1px #33333311;
+margin: 20px 0;
+border-radius: 10px;
+padding: 20px;
+background: #551155;
+}
+.label-align {
+    display: grid;
+    grid-template-columns: 2em 1fr;
+  column-gap: 1px;
+}
+.Gender-head{
+  font-size: 250;
+  font-weight: 300;
+  color: #3e443eec;
+  text-align: center;
+}
+.radio-label{
+    width: fit-content;
+    margin: 0;
+}
+.radio {
+    margin: 0;
+    box-shadow: 0px 0px 0px;
+}
+
+input:focus{
+    background: #aaaaaada;
+    outline: none;
+    
+}
+.div{
+    border: 1px solid green;
+    padding:5px;
+    width: 100%;
+    margin:auto;
+}
+.project-img{
+ height: 100%;
+ background: #ffffea11;
+ margin: 50px 0;
+ padding: 30px;
+}
+.project-img div img{
+ display: block; 
+ margin-right: auto;
+ margin-left: auto;
+ margin-top: 10%;
+}
+h3 a{
+ text-decoration: none;
+ text-align: center;
+ border-radius: 30px;
+ padding: 10px;
+ background: #ff007345;
+ display: block; 
+ margin-right: auto;
+ margin-left: auto;
+ width: 75%;
+ margin-top: 20px;
+ 
+{
+
+
